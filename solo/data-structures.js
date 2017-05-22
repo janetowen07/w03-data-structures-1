@@ -33,7 +33,7 @@ const sharedMethods = {
             delete this.stack[this.index];
             this.index--;
         }
- }
+ };
 
 // stacks prototypal
 function stacksProto () { 
