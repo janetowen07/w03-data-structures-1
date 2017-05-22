@@ -1,0 +1,22 @@
+{
+  "name": "w03-data-structures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data-structures.js",
+  "scripts": {
+    "test": "mocha ./spec/*.spec.js",
+    "test.watch": "npm test -- --watch",
+    "posttest": "npm run lint",
+    "precommit": "npm test",
+    "lint": "eslint --fix ./"
+  },
+  "author": "Jo Imlay",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "husky": "^0.13.3",
+    "mocha": "^3.4.1",
+    "sinon": "^2.2.0"
+  }
+}
