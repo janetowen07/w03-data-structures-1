@@ -20,3 +20,6 @@ function queuesFunc () {
 console.log(queuesFunc('red'));
 
 module.exports = queuesFunc;
+
+// used in chat apps
+// print queue

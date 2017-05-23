@@ -16,3 +16,7 @@ function stacksFunc () {
 }
 
 module.exports = stacksFunc;
+
+// could be used to undo 
+// recursion
+// evaluating mathematical expressions BIDMAS

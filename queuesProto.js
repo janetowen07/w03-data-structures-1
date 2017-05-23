@@ -6,6 +6,10 @@ function queuesProto () {
         return obj;
 }
 
+queuesProto.prototype.size = function () {
+            return this.frontIndex - this.rearIndex;
+}
+
 queuesProto.prototype.push = function (item) {
             this.queue[this.rearIndex] = item;
             this.rearIndex++;
